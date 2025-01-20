@@ -17,6 +17,7 @@ https://github.com/google/mozc-devices/tree/master/mozc-furikku
 - ジョイスティック * 12
 - CHERRY MX メカニカルスイッチ * 8
 - MCP3208 * 3
+- ユニバーサル基板 * 2
 - Connectors
 
 ## 作り方
