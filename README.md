@@ -9,6 +9,7 @@ https://blog.google/intl/ja-jp/products/android-chrome-play/2016_04_furikku/
 
 # 制作
 制作は主にgoogle japanが公開しているgithubを参考にして作りました。
+https://github.com/google/mozc-devices/tree/master/mozc-furikku
 
 ## 使用部品
 - Maker Nano * 1
@@ -18,4 +19,4 @@ https://blog.google/intl/ja-jp/products/android-chrome-play/2016_04_furikku/
 - MCP3208 * 3
 - Connectors
 
-# 作り方
+## 作り方
