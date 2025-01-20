@@ -23,7 +23,7 @@ void loop() {
 
     Keyboard.press(KEY_LEFT_CTRL);
     Keyboard.press('z');
-    delay(100);
+    delay(10);
     Keyboard.releaseAll();
     while (!digitalRead(2)) {}
 
