@@ -168,15 +168,8 @@ void loop() {
     }
 
     if (value1_5 >= RightPush)
-
     {
-
         Serial.println("so\t");
-
-        Vowel_temp = "s";
-
-        Conso_temp = "o";
-
     }
 
 
@@ -185,195 +178,84 @@ void loop() {
 //た行
 
     if (digitalRead(T_PIN) == LOW)
-
     {
-
         Serial.println("ta\t");
-
     }
 
     if (value2_2 <= LeftPush)//横
 
     {
-
         Serial.println("ti\t");
-
-        Vowel_temp = "t";
-
-        Conso_temp = "i";
-
     }
 
     if (value2_2 >= RightPush)
-
     {
 
         Serial.println("te\t");
-
-        Vowel_temp = "t";
-
-        Conso_temp = "e";
-
     }
 
-
-
     if (value1_7 <= LeftPush)
-
     {
-
         Serial.println("tu\t");
-
-        Vowel_temp = "t";
-
-        Conso_temp = "u";
-
     }
 
     if (value1_7 >= RightPush)
-
     {
-
         Serial.println("to\t");
-
-        Vowel_temp = "t";
-
-        Conso_temp = "o";
-
     }
-
-    // if (digitalRead(T_PIN) == LOW)
-
-    // {
-
-    //     Serial.print("ta\t");
-
-    // }
-
 
 
 //な行
-
     if (digitalRead(N_PIN) == LOW)
-
     {
-
         Serial.println("na\t");
-
     }
-
-    if (value1_6 >= 2000)//横
-
-      if (value2_0 <= LeftPush)
-        {
-
-            Serial.println("ni\t");
-
-            Vowel_temp = "null";
-
-            Conso_temp = "i";
-
-        }
+  
+    if (value2_0 <= LeftPush)
+    {
+        Serial.println("ni\t");
+    }
 
     if (value2_0>= 2000)
-
     {
-
         Serial.println("ne\t");
-
-        Vowel_temp = "null";
-
-        Conso_temp = "e";
-
     }
 
-
-
     if (value1_6 <= 600)
-
     {
-
         Serial.println("nu\t");
-
-        Vowel_temp = "null";
-
-        Conso_temp = "u";
-
     }
 
     if (value1_6 >= 3500)
-
     {
-
         Serial.println("no\t");
-
-        Vowel_temp = "null";
-
-        Conso_temp = "o";
-
     }
 
-
-
-
+  
 //は行
-
     if (digitalRead(H_PIN) == LOW)
-
     {
-
         Serial.println("ha\t");
-
     }
 
-    if (value2_1 <= LeftPush)//横
-
+    if (value2_1 <= LeftPush)
     {
-
         Serial.println("hi\t");
-
-        Vowel_temp = "h";
-
-        Conso_temp = "i";
-
     }
 
     if (value2_1>= RightPush)
-
     {
-
         Serial.println("he\t");
-
-        Vowel_temp = "h";
-
-        Conso_temp = "e";
-
     }
 
-
-
     if (value2_3 <= LeftPush)
-
     {
-
         Serial.println("hu\t");
-
-        Vowel_temp = "h";
-
-        Conso_temp = "u";
-
     }
 
     if (value2_3 >= RightPush)
-
     {
-
         Serial.println("ho\t");
-
-        Vowel_temp = "h";
-
-        Conso_temp = "o";
-
     }
 
 
@@ -382,124 +264,55 @@ void loop() {
 //ま行
 
     if (digitalRead(M_PIN) == LOW)
-
     {
-
         Serial.println("ma\t");
-
     }
 
-    if (value2_4 <= LeftPush)//横
-
+    if (value2_4 <= LeftPush)
     {
-
         Serial.println("mi\t");
-
-        Vowel_temp = "m";
-
-        Conso_temp = "i";
-
     }
 
     if (value2_4>= RightPush)
-
     {
-
         Serial.println("me\t");
-
-        Vowel_temp = "m";
-
-        Conso_temp = "e";
-
     }
 
-
-
     if (value2_5 <= LeftPush)
-
     {
-
         Serial.println("mu\t");
-
-        Vowel_temp = "m";
-
-        Conso_temp = "u";
-
     }
 
     if (value2_5 >= RightPush)
-
     {
-
         Serial.println("mo\t");
-
-        Vowel_temp = "m";
-
-        Conso_temp = "o";
-
     }
-
-
-
+  
 
 //や行
-
     if (digitalRead(Y_PIN) == LOW)
-
     {
-
         Serial.println("ya\t");
-
     }
-
-    if (value2_6 <= LeftPush)//横
-
+  
+    if (value2_6 <= LeftPush)
     {
-
         Serial.println("(\t");
-
-        Vowel_temp = "null";
-
-        Conso_temp = "(";
-
     }
 
     if (value2_6>= RightPush)
-
     {
-
         Serial.println(")\t");
-
-        Vowel_temp = "null";
-
-        Conso_temp = ")";
-
     }
 
-
-
     if (value2_7 <= LeftPush)
-
     {
-
         Serial.println("yu\t");
-
-        Vowel_temp = "null";
-
-        Conso_temp = "u";
-
     }
 
     if (value2_7 >= RightPush)
-
     {
-
         Serial.println("yo\t");
-
-        Vowel_temp = "null";
-
-        Conso_temp = "o";
-
     }
 
 
@@ -508,167 +321,80 @@ void loop() {
 //ら行
 
     if (digitalRead(R_PIN) == LOW)
-
     {
-
         Serial.println("ra\t");
-
     }
 
-    if (value3_0 <= 100)//横
-
+    if (value3_0 <= 100)
     {
-
         Serial.println("ri\t");
-
-        Vowel_temp = "null";
-
-        Conso_temp = "i";
-
     }
 
     if (value3_0>= RightPush)
-
     {
-
         Serial.println("re\t");
-
-        Vowel_temp = "null";
-
-        Conso_temp = "e";
-
     }
 
-
-
     if (value3_1 <= LeftPush)
-
     {
-
         Serial.println("ru\t");
-
-        Vowel_temp = "r";
-
-        Conso_temp = "u";
-
     }
 
     if (value3_1 >= RightPush)
-
     {
-
         Serial.println("ro\t");
-
-        Vowel_temp = "r";
-
-        Conso_temp = "o";
-
     }
 
-
-
-
-
+  
 //わ行
-
     if (digitalRead(W_PIN) == LOW)
-
     {
-
         Serial.println("wa\t");
-
     }
 
-    if (value3_4 <= LeftPush)//横
-
+    if (value3_4 <= LeftPush)
     {
-
         Serial.println("wo\t");
-
-        Vowel_temp = "w";
-
-        Conso_temp = "o";
-
     }
 
     if (value3_4>= RightPush)
-
     {
-
         Serial.println("-\t");
-
-        Vowel_temp = "null";
-
-        Conso_temp = "-";
-
     }
 
-
-
     if (value3_5 <= LeftPush)
-
     {
-
         Serial.println("nn\t");
-
-        Vowel_temp = "null";
-
-        Conso_temp = "nn";
-
     }
 
     if (value3_5 >= RightPush)
-
     {
-
         Serial.println("~\t");
-
-        Vowel_temp = "null";
-
-        Conso_temp = "~";
-
     }
-
-    // if (digitalRead(W_PIN) == LOW)
-
-    // {
-
-    //     Serial.print("wa\t");
-
-    // }
-
 
 
 //句読点ども
 
     if (digitalRead(MK_PIN) == LOW)
-
     {
-
         Serial.println(",\t");
-
     }
 
     if (value3_6 <= LeftPush)
-
     {
-
         Serial.println(".\t");
-
-        Vowel_temp = "null";
-
-        Conso_temp = ".";
-
     }
 
     if (value3_6>= RightPush)
     {
         Serial.println("!\t");
     }
+  
     if (value3_7 <= LeftPush)
     {
         Serial.println("?\t");
     }
+  
     if (value3_7 >= RightPush)
     {
         Serial.println("…\t");
