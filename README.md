@@ -11,6 +11,15 @@ https://blog.google/intl/ja-jp/products/android-chrome-play/2016_04_furikku/
 制作は主にgoogle japanが公開しているgithubを参考にして作りました。\
 https://github.com/google/mozc-devices/tree/master/mozc-furikku
 
+# 使い方（for 関係者）
+- 前提
+  Windows10または11の64Bit版を想定しています。
+  32bit版Windowsや他OS(Linux,Mac)の場合はPythonのソースがレポジトリのsrcフォルダ内にありますので、Pythonの環境をインストールし、ソースファイルから使用してください。
+  
+1. PCにUSBを接続してください。
+2. [Windowsキー + X] の組み合わせでメニューをキャプチャ画像のように出し、デバイスマネージャーをクリックしてください。
+3. デバイスマネージャーで[ポート(COMとLPT)]を探し出してください。
+
 ## 使用部品
 - Maker Nano * 1
 - Leonardo Pro Micro * 1
